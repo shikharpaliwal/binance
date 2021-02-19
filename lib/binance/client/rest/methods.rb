@@ -97,6 +97,9 @@ module Binance
         # #withdraw_fee
         { name: :withdraw_fee, client: :withdraw,
           action: :get, endpoint: :withdraw_fee },
+        # #asset_details
+        { name: :asset_details, client: :verified,
+          action: :get, endpoint: :asset_details },
         # dust_log
         { name: :dust_log, client: :withdraw,
           action: :get, endpoint: :dust_log }
